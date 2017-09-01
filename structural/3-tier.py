@@ -68,6 +68,14 @@ def main():
 if __name__ == '__main__':
     main()
 
+'''
+a='abc,def,ghi'
+print a.title()
+print a.capitalize()
+
+Abc,Def,Ghi
+Abc,def,ghi
+'''
 ### OUTPUT ###
 # PRODUCT LIST:
 # (Fetching from Data Store)

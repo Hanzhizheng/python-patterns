@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
+unified: 统一的; underlying: 底层的; procedures: 程序
 *What is this pattern about?
 The Facade pattern is a way to provide a simpler unified interface to
 a more complex system. It provides an easier way to access functions

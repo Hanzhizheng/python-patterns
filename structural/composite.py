@@ -27,6 +27,16 @@ https://infinitescript.com/2014/10/the-23-gang-of-three-design-patterns/
 
 *TL;DR80
 Describes a group of objects that is treated as a single instance.
+
+A class which defines a composite object which can store
+hieararchical dictionaries with names.
+hieararchical: 分层的
+
+This class is same as a hiearchical dictionary, but it
+provides methods to add/access/modify children by name,
+like a Composite.
+
+Created Anand B Pillai     <abpillai@gmail.com>
 """
 
 

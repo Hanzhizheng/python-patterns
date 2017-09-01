@@ -78,6 +78,7 @@ class Adapter(object):
     >>> objects = []
     >>> dog = Dog()
     >>> print(dog.__dict__)
+    why no bark in __dict__?
     {'name': 'Dog'}
     >>> objects.append(Adapter(dog, make_noise=dog.bark))
     >>> print(objects[0].original_dict())
@@ -104,7 +105,10 @@ class Adapter(object):
         self.__dict__.update(adapted_methods)
 
     def __getattr__(self, attr):
-        """All non-adapted calls are passed to the object"""
+        """
+        All non-adapted calls are passed to the objects
+        this is for obj.name, obj.make_noise=instance.func, in Adapter's instance.__dict__
+        """
         return getattr(self.obj, attr)
 
     def original_dict(self):

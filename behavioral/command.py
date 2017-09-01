@@ -56,6 +56,9 @@ def main():
 if __name__ == "__main__":
     main()
 
+# os.unlink() 方法用于删除文件,如果文件是一个目录则返回一个错误。
+# os.path.lexists: 主要的区别在于，exists()会自动判断失效的文件链接。如果检查的文件是一个软链接，但这个软连接指向的文件被删除了，会返回False。
+# 而lexists()不会做这个检查，只要软连接存在，即使它指向的文件不存在，也返回True。
 ### OUTPUT ###
 # renaming foo.txt to bar.txt
 # renaming bar.txt to baz.txt
