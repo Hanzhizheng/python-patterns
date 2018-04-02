@@ -4,6 +4,10 @@
 """
 *TL;DR80
 Separates presentation, application processing, and data management functions.
+三层架构(3-tier architecture) 通常意义上的三层架构就是将整个业务应用划分为：
+    界面层（User Interface layer）、
+    业务逻辑层（Business Logic Layer）、
+    数据访问层（Data access layer）。
 """
 
 
