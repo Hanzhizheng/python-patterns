@@ -4,6 +4,8 @@
 """
 *TL;DR80
 Provides an interface to resource that is expensive to duplicate.
+为其他对象提供一个代理以控制对这个对象的访问
+一件事情，本应是A去做的，但是A不想去做，找到了B帮他做，B就是A的代理，所谓代理模式就是实现了这个东西
 """
 
 from __future__ import print_function

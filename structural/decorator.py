@@ -25,6 +25,7 @@ https://sourcemaking.com/design_patterns/decorator
 
 *TL;DR80
 Adds behaviour to object without affecting its class.
+在一个功能的基础上添加新功能，除了继承，我们还可以使用组合。即把A类当做B类的一个属性，在B类中使用A类的方法。从而实现B类对A类功能的继承。
 """
 
 from __future__ import print_function

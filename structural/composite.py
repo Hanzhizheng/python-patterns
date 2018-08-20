@@ -8,7 +8,7 @@ same way as a single instance of the same type of object. The intent of
 a composite is to "compose" objects into tree structures to represent
 part-whole hierarchies. Implementing the composite pattern lets clients
 treat individual objects and compositions uniformly.
-
+组合模式(Composite Pattern)：组合多个对象形成树形结构以表示具有“整体—部分”关系的层次结构。
 *What does this example do?
 The example implements a graphic class，which can be either an ellipse
 or a composition of several graphics. Every graphic can be printed.

@@ -30,7 +30,7 @@ https://sourcemaking.com/design_patterns/abstract_factory
 http://ginstrom.com/scribbles/2007/10/08/design-patterns-python-style/
 
 *TL;DR80
-Provides a way to encapsulate a group of individual factories.
+Provides a way to encapsulate (封装) a group of individual factories.
 """
 
 import random
@@ -96,7 +96,7 @@ if __name__ == "__main__":
 ### OUTPUT ###
 # We have a lovely Cat
 # It says meow
-# 
+#
 # We have a lovely Dog
 # It says woof
 # ====================
